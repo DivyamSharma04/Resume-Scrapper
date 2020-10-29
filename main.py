@@ -21,7 +21,7 @@ from nltk.tokenize import word_tokenize
 from nltk.tokenize import RegexpTokenizer
 import glob
 
-resume_list = glob.glob("resume/*.pdf")
+resume_list = glob.glob("resume/*")
 
 
 def extract_resume():
